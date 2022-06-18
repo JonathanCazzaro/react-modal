@@ -1,6 +1,6 @@
 {
   "name": "@jsee_dev/react-modal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple modal component template with CSS based animations for React.",
   "keywords": [
     "react",

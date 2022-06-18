@@ -17,7 +17,7 @@ export interface ModalTemplateProps {
   bypassAnim?: boolean;
 }
 
-const ModalTemplate: React.FC<ModalTemplateProps> = ({
+const Modal: React.FC<ModalTemplateProps> = ({
   elementRef,
   rootElementId,
   trigger,
@@ -69,4 +69,4 @@ const ModalTemplate: React.FC<ModalTemplateProps> = ({
     : null;
 };
 
-export default ModalTemplate;
+export default Modal;
