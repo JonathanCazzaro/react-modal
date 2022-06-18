@@ -1,0 +1,24 @@
+{
+  "name": "@jsee_dev/react-modal",
+  "version": "1.0.0",
+  "description": "Simple modal component template with CSS based animations for React.",
+  "keywords": [
+    "react",
+    "css",
+    "animation",
+    "transition",
+    "modal"
+  ],
+  "main": "index.tsx",
+  "author": "Jonathan Cazzaro <jonathan.cazzaro@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanCazzaro/react-modal"
+  },
+  "peerDependencies": {
+    "@jsee_dev/react-transition": "^1.9.0",
+    "@types/react": "^18.0.14",
+    "react-dom": "^18.2.0"
+  }
+}
