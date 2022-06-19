@@ -1,6 +1,6 @@
 import Transition from "@jsee_dev/react-transition";
 import React, { ReactElement, RefObject, useEffect, useState } from "react";
-import { createPortal } from "react-dom";
+import ReactDOM from "react-dom";
 
 export interface ModalTemplateProps {
   elementRef?: RefObject<HTMLDivElement>;
@@ -50,7 +50,7 @@ const Modal: React.FC<ModalTemplateProps> = ({
   }, [trigger]);
 
   return delayedTrigger
-    ? createPortal(
+    ? ReactDOM.createPortal(
         <Transition
           elementRef={elementRef}
           classPrefix={animationClassPrefix}
